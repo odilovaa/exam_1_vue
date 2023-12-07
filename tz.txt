@@ -1,0 +1,24 @@
+Project 
+
+    ===> Tables
+        ==> Book
+            => Properties:
+                id, title, desc, author, pages, 
+                published_date, photo, type,
+                written_date, category_id.
+
+        ==> Admin
+            => Properties:
+                id, first_name, last_name, email, password, 
+                refresh_token, access_token, phone_number
+
+        ==> User
+            => Properties:
+                id, first_name, last_name, email, 
+                password, refresh_token, access_token,
+                email, password
+
+        ==> Category
+            => Properties:
+                id, title
+
